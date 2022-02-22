@@ -6,6 +6,7 @@ body {
     position: relative;
 }
 
+
 /* Header */
 #brand-logo{
   font-size: 19px;
@@ -16,6 +17,39 @@ body {
 .gallery-icon{
   height: 25px;
   margin-right: 7px;
+}
+
+/* navbar */
+
+.nav-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+/* Hero Swiper */
+.HeroSwiperDetails{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.15);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.HeroSwiperDetails-title{
+  font-weight: 600; 
+}
+.HeroSwiperDetails a{
+  margin: 0;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
 }
 
 /*Photo Gallery List */

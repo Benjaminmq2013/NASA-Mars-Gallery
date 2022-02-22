@@ -1,0 +1,16 @@
+@media (min-width: 510px){
+    .PhotoGallery_container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1024px){
+    .PhotoGallery_container{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1366px){    
+    #root{
+        width: 1366px;
+        margin: auto;
+    }
+}

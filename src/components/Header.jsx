@@ -1,6 +1,6 @@
 import React from 'react'
 import OpenImage from '../Modal/OpenImage'
-import HeroSwiper from './HeroSwiper';
+import HeroSwiper from '../containers/HeroSwiper';
 import galleryIcon from "../assets/icons/image-gallery.svg"
 
 
