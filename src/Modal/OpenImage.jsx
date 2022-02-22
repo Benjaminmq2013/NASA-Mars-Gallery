@@ -1,7 +1,7 @@
 import React from "react";
 import M from "materialize-css";
 
-const OpenImage = () => {
+const OpenImage = ({ img_url }) => {
   
 
   document.addEventListener("DOMContentLoaded", function () {
