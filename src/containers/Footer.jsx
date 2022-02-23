@@ -1,10 +1,10 @@
 import React from 'react'
-import SelectDate from '../Modal/SelectDate'
+import RandomImages from '../components/RandomImages'
 
 
 const Footer = () => {
   return (
-    <SelectDate />
+    < RandomImages/>
   )
 }
 

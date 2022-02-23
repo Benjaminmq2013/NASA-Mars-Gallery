@@ -12,8 +12,8 @@ const SelectDate = () => {
 
   return (
     <>
-      <a className="waves-effect waves-light btn-floating btn-large modal-trigger" href="#modal-select-date" id="modalDate-btn">
-        <img src={ menu_icon } alt="" />
+      <a  id="modalDate-btn">
+        <img src={ menu_icon } className="modal-trigger" data-target="modal-select-date"/>
       </a>
 
       <div id="modal-select-date" className="modal bottom-sheet">

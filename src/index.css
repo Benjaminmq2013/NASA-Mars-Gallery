@@ -18,6 +18,19 @@ body {
   height: 25px;
   margin-right: 7px;
 }
+#modalDate-btn{
+  height: 100%;
+  position: absolute;  
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#modalDate-btn img{
+  width: 24px;
+  height: 20px;
+  margin-left: 20px;
+}
 
 /* navbar */
 
@@ -76,25 +89,29 @@ nav{
 }
 
 @media (max-width:992px){
-  #modal1 {
+  #modal-OpenImage{
     width: 93%;
   }
 }
 
 /* Modal 2 */
-#modalDate-btn{
-  position: fixed;  
+
+
+#Random_images-btn{
+  height: 60px;
+  height: 60px;
+  position: fixed;
   right: 0;
   bottom: 0;
   margin-right: 20px;
   margin-bottom: 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#modalDate-btn img{
-  width: 20px;
+#Random_images-btn img{
+  height: 30px;
+  width: 30px;
 }
 
 #date-input{

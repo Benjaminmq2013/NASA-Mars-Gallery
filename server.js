@@ -4,8 +4,8 @@ const app = express()
 const bodyParser = require("body-parser")
 const config = require("./server-config")
 
-// const cors = require("cors")
-// app.use(cors()) // Just for development purposes
+const cors = require("cors")
+app.use(cors()) // Just for development purposes
 
 //settings
 app.use(bodyParser.json())
