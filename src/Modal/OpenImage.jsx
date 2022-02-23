@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AppContext } from "../context/provider"
 import M from "materialize-css";
 
-const OpenImage = ({ img_url }) => {
-  
+const OpenImage = () => {
+  const [ imageURL, setImageURL ] = useContext(AppContext)
 
   document.addEventListener("DOMContentLoaded", function () {
     var elems = document.querySelectorAll(".modal");
@@ -12,9 +13,9 @@ const OpenImage = ({ img_url }) => {
   return (
     <>      
 
-      <div id="modal1" className="modal">
-        <div className="modal-content blue">
-          <img src="" alt="" />
+      <div id="modal-OpenImage" className="modal">
+        <div className="modal-content" id="OpenedImage">
+          <img className="OpenedImage" src={ imageURL } alt="" />
         </div>
       </div>
     </>

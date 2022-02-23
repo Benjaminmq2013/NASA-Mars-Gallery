@@ -25,6 +25,9 @@ body {
   display: flex;
   justify-content: center;
 }
+nav{
+  line-height: 0!important;
+}
 
 /* Hero Swiper */
 .HeroSwiperDetails{
@@ -62,4 +65,18 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3px;
   margin-top: 203px;
+}
+
+/* Modal */
+.OpenedImage{
+  width: 100%;
+}
+#OpenedImage {
+  padding: 0px !important;
+}
+
+@media (max-width:992px){
+  #modal1 {
+    width: 93%;
+  }
 }
